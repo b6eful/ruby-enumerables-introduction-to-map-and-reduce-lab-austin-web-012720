@@ -2,7 +2,7 @@
 def map_to_negativize(source_array)
   k = 0
   while k < source_array.length do
-    source_array[k] = source_array[k] - (2 * source_array[i])
+    source_array[k] = source_array[k] - (2 * source_array[k])
   k += 1
   end
   return source_array
