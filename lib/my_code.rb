@@ -12,7 +12,7 @@ def map_to_no_change(source_array)
   new_array = []
   k = 0
   while k < source_array.length do
-    new_array.push(source_array[i])
+    new_array.push(source_array[k])
     k += 1
   end
   return new_array  
